@@ -1,6 +1,6 @@
 <html>
 <body>
-<h1>Liste des films</h1>
+<h1>recherche</h1>
 
 
 <?php
