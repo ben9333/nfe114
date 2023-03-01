@@ -15,7 +15,7 @@ $base->exec("SET CHARACTER SET utf8");
 $sql = 'INSERT INTO movies VALUES(NULL,"'.$TITRE.'","'.$GENRE.'",'.$ANNEE.')';
 
 //2° - Préparation de requette et execution
-$retour = $base->query('SELECT * FROM movies WHERE annee='.$ANNEE.';');
+$retour = $base->query($sql);
 
 ?>
 </body>
