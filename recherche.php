@@ -3,6 +3,7 @@
 <h1>Formulaire de recherche</h1>
 
 <p>ANNEE ? <SELECT name="annee">
+<p><input type="submit"/></p>
 
 <?php
 
