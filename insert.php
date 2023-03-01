@@ -13,8 +13,9 @@ echo $TITRE." ".$GENRE." ".$ANNEE;
 $base = new PDO('mysql:host=localhost; dbname=id20205300_movies', 'id20205300_beno', '+!v[QdLa4er?T1)I');
 $base->exec("SET CHARACTER SET utf8");
 $sql = 'INSERT INTO movies VALUES(NULL,"'.$TITRE.'","'.$GENRE.'",'.$ANNEE.')';
+
 //2° - Préparation de requette et execution
-$retour = $base->query($sql);
+$retour = $base->query('SELECT * FROM movies WHERE annee='.$ANNEE.';');
 
 ?>
 </body>
