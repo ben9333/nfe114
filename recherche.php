@@ -1,6 +1,6 @@
 <html>
 <body>
-<h1>recherche</h1>
+<h1>Formulaire de recherche</h1>
 
 <p>ANNEE ? <SELECT name="annee">
 
