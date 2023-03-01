@@ -22,6 +22,9 @@ echo "<option>".$data['annee']."</option>";
 </SELECT>
 </p>
 
+<p><input type="submit"/></p>
+</form>
+
 </body>
 </html>
 
